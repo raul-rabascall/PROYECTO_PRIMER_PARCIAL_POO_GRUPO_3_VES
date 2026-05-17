@@ -1,6 +1,17 @@
 # Sistema de Gestión de Servicios de Cine / Eventos
 **Programación Orientada a Objetos — Proyecto Primer Parcial**  
 **Grupo 3**
+---
+## Integrantes — Grupo 3
+- Bajaña Ordeñana Lervith Alexander
+- González Rodriguez Scarlet Anabella
+- Guzman Cabezas Nasly Janelie
+- Rabascall Franco Raúl Miguel 
+- Robins Barros Emeli Carina
+
+---
+## Video explicativo
+https://drive.google.com/drive/folders/1oGzgg1rF3TMD3HZaoZ4kRopEELNDCbuD?usp=sharing
 
 ---
 ## Descripción
@@ -9,15 +20,17 @@ Sistema desarrollado en Python que permite gestionar entradas de cine y reservas
 
 ---
 ## Estructura del proyecto
-PROYECTO_PRIMER_PARCIAL_POO_GRUPO_3_VES/
-├── ServicioEvento.py   → Superclase base
-├── EntradaCine.py      → Clase hija
-├── ReservaEvento.py    → Clase hija
-├── ClienteEvento.py    → Clase adicional
-├── GestorEventos.py    → Clase adicional
-├── main.py             → Programa principal
-└── README.md
 
+```
+PROYECTO_PRIMER_PARCIAL_POO_GRUPO_3_VES/
+├── ServicioEvento.py    → Superclase base
+├── EntradaCine.py       → Clase hija
+├── ReservaEvento.py     → Clase hija
+├── ClienteEvento.py     → Clase adicional
+├── GestorEventos.py     → Clase adicional
+├── main.py              → Programa principal
+└── README.md
+```
 ---
 ## Diagrama de clases
 ServicioEvento          ← clase_base.py (superclase)
@@ -187,14 +200,3 @@ python main.py
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/ebaaf093-cbf5-4500-8c78-0bad532dc9b1" />
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/336988d0-2d48-42cd-93a0-b8cc3d3323da" />
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/134a3be4-2a19-4d9c-a6d2-0cf339f720ef" />
-
----
-## Video explicativo
-https://drive.google.com/drive/folders/1oGzgg1rF3TMD3HZaoZ4kRopEELNDCbuD?usp=sharing
----
-## Integrantes — Grupo 3
-- Bajaña Ordeñana Lervith Alexander
-- González Rodriguez Scarlet Anabella
-- Guzman Cabezas Nasly Janelie
-- Rabascall Franco Raúl Miguel 
-- Robins Barros Emeli Carina
