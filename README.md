@@ -21,6 +21,35 @@ PROYECTO_PRIMER_PARCIAL_POO_GRUPO_3_VES/
 └── README.md
 ```
 ---
+## Diagrama de clases
+
+```
+                    ServicioEvento          ← Superclase base
+                    _codigo
+                    _nombre
+                    _descripcion
+                    calcular_total()        ← polimórfico
+                    mostrar_info()          ← polimórfico
+                    __str__()
+                         |
+           +─────────────+─────────────+
+           |                           |
+     EntradaCine                 ReservaEvento
+     _tipo_sala                  _num_personas
+     _horario                    _ubicacion
+     _categoria                  _servicio_incluido
+     _cantidad
+     calcular_total()            calcular_total()
+     mostrar_info()              mostrar_info()
+
+  ClienteEvento                 GestorEventos
+  _cedula                       _nombre_empresa
+  _nombre                       _servicios []
+  _correo                       agregar_servicio()
+  _telefono                     calcular_total()
+  __str__()                     mostrar_info()
+```
+---
 ## Detalle de cada clase
 
 ### ServicioEvento — `clase_base.py`
