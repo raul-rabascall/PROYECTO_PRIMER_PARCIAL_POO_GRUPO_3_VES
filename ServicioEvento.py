@@ -1,7 +1,7 @@
 # Integrantes:
 # - Bajaña Alexander
+# - Gonzalez Scarlet# 
 # - Guzmán Nasly
-# - Gonzalez Scarlet
 # - Rabascall Raul
 # - Robins Emeli
 
