@@ -9,12 +9,12 @@ Sistema desarrollado en Python que permite gestionar entradas de cine y reservas
 
 ---
 ## Estructura del proyecto
-ProyectoPOO_Parcial1/
-├── clase_base.py       → ServicioEvento (superclase)
-├── clase_hija_1.py     → EntradaCine
-├── clase_hija_2.py     → ReservaEvento
-├── clase_extra_1.py    → ClienteEvento
-├── clase_extra_2.py    → GestorEventos
+PROYECTO_PRIMER_PARCIAL_POO_GRUPO_3_VES/
+├── ServicioEvento.py   → Superclase base
+├── EntradaCine.py      → Clase hija
+├── ReservaEvento.py    → Clase hija
+├── ClienteEvento.py    → Clase adicional
+├── GestorEventos.py    → Clase adicional
 ├── main.py             → Programa principal
 └── README.md
 
@@ -190,8 +190,7 @@ python main.py
 
 ---
 ## Video explicativo
-<!-- Agregar enlace al video de máximo 2 minutos con permisos de visualización -->
-
+https://drive.google.com/drive/folders/1oGzgg1rF3TMD3HZaoZ4kRopEELNDCbuD?usp=sharing
 ---
 ## Integrantes — Grupo 3
 - Bajaña Ordeñana Lervith Alexander
