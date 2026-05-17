@@ -196,6 +196,6 @@ python main.py
 ## Integrantes — Grupo 3
 - Bajaña Ordeñana Lervith Alexander
 - González Rodriguez Scarlet Anabella
-- Guzman 
+- Guzman Cabezas Nasly Janelie
+- Rabascall Franco Raúl Miguel 
 - Robins Barros Emeli Carina
-- Rabascall 
