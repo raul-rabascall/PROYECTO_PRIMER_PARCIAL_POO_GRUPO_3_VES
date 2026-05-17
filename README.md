@@ -1,17 +1,6 @@
 # Sistema de Gestión de Servicios de Cine / Eventos
 **Programación Orientada a Objetos — Proyecto Primer Parcial**  
 **Grupo 3**
----
-## Integrantes — Grupo 3
-- Bajaña Ordeñana Lervith Alexander
-- González Rodriguez Scarlet Anabella
-- Guzman Cabezas Nasly Janelie
-- Rabascall Franco Raúl Miguel 
-- Robins Barros Emeli Carina
-
----
-## Video explicativo
-https://drive.google.com/drive/folders/1oGzgg1rF3TMD3HZaoZ4kRopEELNDCbuD?usp=sharing
 
 ---
 ## Descripción
@@ -31,6 +20,36 @@ PROYECTO_PRIMER_PARCIAL_POO_GRUPO_3_VES/
 ├── main.py              → Programa principal
 └── README.md
 ```
+---
+## Diagrama de clases
+
+```
+                    ServicioEvento          ← Superclase base
+                    _codigo
+                    _nombre
+                    _descripcion
+                    calcular_total()        ← polimórfico
+                    mostrar_info()          ← polimórfico
+                    __str__()
+                         |
+           +─────────────+─────────────+
+           |                           |
+     EntradaCine                 ReservaEvento
+     _tipo_sala                  _num_personas
+     _horario                    _ubicacion
+     _categoria                  _servicio_incluido
+     _cantidad
+     calcular_total()            calcular_total()
+     mostrar_info()              mostrar_info()
+
+  ClienteEvento                 GestorEventos
+  _cedula                       _nombre_empresa
+  _nombre                       _servicios []
+  _correo                       agregar_servicio()
+  _telefono                     calcular_total()
+  __str__()                     mostrar_info()
+```
+
 ---
 ## Diagrama de clases
 ServicioEvento          ← clase_base.py (superclase)
@@ -200,3 +219,14 @@ python main.py
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/ebaaf093-cbf5-4500-8c78-0bad532dc9b1" />
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/336988d0-2d48-42cd-93a0-b8cc3d3323da" />
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/134a3be4-2a19-4d9c-a6d2-0cf339f720ef" />
+
+---
+## Video explicativo
+https://drive.google.com/drive/folders/1oGzgg1rF3TMD3HZaoZ4kRopEELNDCbuD?usp=sharing
+---
+## Integrantes — Grupo 3
+- Bajaña Ordeñana Lervith Alexander
+- González Rodriguez Scarlet Anabella
+- Guzman Cabezas Nasly Janelie
+- Rabascall Franco Raúl Miguel 
+- Robins Barros Emeli Carina
