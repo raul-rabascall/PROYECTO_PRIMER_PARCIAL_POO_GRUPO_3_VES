@@ -191,7 +191,7 @@ python main.py
 ---
 ## Video explicativo
 https://drive.google.com/drive/folders/1oGzgg1rF3TMD3HZaoZ4kRopEELNDCbuD?usp=sharing
----
+
 ## Integrantes — Grupo 3
 - Bajaña Ordeñana Lervith Alexander
 - González Rodriguez Scarlet Anabella
